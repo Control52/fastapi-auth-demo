@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Тестовая регистрация</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <form action="/register">
+        <div class="container">
+        <h1>Форма регистрации</h1>
+        <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+        <hr>
+        
+        <label for="log"><b>Логин</b></label>
+        <input type="text" placeholder="Придумайте логин" name="log" required>
+        
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Введите вашу почту" name="email" required>
+        
+        <label for="psw"><b>Пароль</b></label>
+        <input type="password" placeholder="Придумайте пароль" name="psw" required>
+        
+        <label for="repeat-psw"><b> Повторите Пароль</b></label>
+        <input type="password" placeholder="Повторите пароль" name="repeat-psw" required>
+        
+        
+        <div>
+            <button type="button" class="cancel">Отменить</button>
+            <button type="button" class="signup">Зарегистрироваться</button>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
